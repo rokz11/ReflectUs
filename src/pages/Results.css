@@ -1,0 +1,63 @@
+.results-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #1a535c;
+    margin-bottom: 5px;
+  }
+  
+  .subtitle {
+    color: #4e555c;
+    margin-bottom: 20px;
+  }
+  
+  .loading {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+    color: #1a535c;
+  }
+  
+  .analysis-box {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .section-title {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #1a535c;
+  }
+  
+  .answers-section {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .answer-card {
+    background: #e8f8f7;
+    padding: 15px;
+    border-radius: 12px;
+    width: 45%;
+    min-width: 220px;
+    text-align: left;
+  }
+  
+  .answer-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .answer-card p {
+    margin: 4px 0;
+  }
+  

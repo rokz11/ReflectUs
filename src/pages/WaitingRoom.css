@@ -1,0 +1,35 @@
+.waiting-container {
+  display: flex;
+  justify-content: center;
+  padding: 48px 16px;
+}
+
+.waiting-card {
+  width: 100%;
+  max-width: 520px;
+}
+
+.waiting-header {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.waiting-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #c4b5fd, #6d28d9);
+}
+
+.waiting-status {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-top: 1px solid #eee;
+}
+
+.waiting-btn {
+  margin-top: 18px;
+}

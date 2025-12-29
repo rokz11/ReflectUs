@@ -1,0 +1,71 @@
+.onboarding-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px);
+}
+
+/* DEKORATIVNA SILHUETA */
+.silhouette {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  width: 260px;
+  height: 140px;
+  background: #6c5ce7;
+  border-radius: 0 0 260px 260px;
+  opacity: 0.9;
+}
+
+/* CARD */
+.card {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 420px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  z-index: 1;
+}
+
+.card h1 {
+  margin: 0 0 12px;
+  font-size: 26px;
+}
+
+.card p {
+  margin-bottom: 24px;
+  color: #555;
+}
+
+.card input,
+.card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+}
+
+.actions button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.actions button:first-child {
+  background: #6c5ce7;
+  color: #fff;
+}
+
+.actions button.secondary {
+  background: transparent;
+  color: #666;
+}
